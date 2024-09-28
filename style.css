@@ -1,0 +1,146 @@
+.contenedor-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    padding: 8rem 8rem 8rem 8rem;
+    
+    
+    
+h1{
+    font-family: Big Shoulders Display;
+}
+
+}
+.sedan{
+    background-color: #E28625;
+    width: 10rem;
+    height: 20rem;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-top-left-radius: 0.50rem;
+    border-bottom-left-radius: 0.50rem;
+    font-size: 0.80rem;
+    font-family:"Lexend Deca";
+    
+    
+    
+}
+
+.suv{
+    background-color: #006A73;
+    width: 10rem;
+    height: 20rem;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.80rem;
+    font-family:"Lexend Deca" ;
+}
+.luxury{
+    background-color: #00403E;
+    width: 10rem;
+    height: 20rem;
+    color: white;
+    padding: 2rem;
+    border-bottom-right-radius: 0.50rem;
+    border-top-right-radius: 0.50rem;
+    font-size: 0.80rem;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family:"Lexend Deca";
+}
+.sedan-b{
+    border-radius: 10rem;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color:white ;
+    border-color:  white;
+    color: #E28625;
+    border:0.1rem solid white;
+    margin-top: 1.5rem;
+    font-size: 0.80rem;
+    
+    
+}
+
+.sedan-b:hover{
+    background-color:#E28625;
+    color: white;
+
+}
+
+.suv-b{
+    border-radius: 10rem;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color:white ;
+    border-color:  white;
+    color: #086972;
+    border:0.1rem solid white;
+    margin-top: 1.5rem;
+    font-size: 0.80rem;
+}
+
+.suv-b:hover{
+    background-color:#086972;
+    color: white;
+
+}
+
+.luxury-b{
+    border-radius: 10rem;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color:white ;
+    border-color:  white;
+    color: #06413F;
+    border:0.1rem solid white;
+    margin-top: 1.5rem;
+    font-size: 0.80rem;
+    
+}
+
+.luxury-b:hover{
+    background-color:#06413F;
+    color: white;
+
+}
+@media (max-width: 600px) {
+    
+   
+    .contenedor-1 {
+            flex-direction: column; 
+    padding: 2rem; 
+        }
+    
+        
+        
+    .sedan{
+
+        width: 50%;
+        height: 30%;
+        border-radius:0.50rem 0.50rem 0.10rem 0.10rem ;
+
+    }
+    
+    
+    .suv{
+        width: 50%;
+        height: 30%;
+
+
+    }
+    
+    
+    .luxury {
+            width: 50%;
+            height: 30%;
+            border-radius:0.10rem 0.10rem 0.50rem 0.50rem ;
+          
+        }
+
+    }
+    
